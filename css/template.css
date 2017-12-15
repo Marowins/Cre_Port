@@ -1,0 +1,82 @@
+html, body {
+    background-color: black;
+    background-image: url('./resource/T_Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+nav {
+    position: fixed;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 70px;
+    height: 70px;
+}
+
+nav > button {
+    border: none;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+#container {
+    border: none;
+    margin: 0px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 1200px;
+    height: 600px;
+}
+
+#goback {
+    position: fixed;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%) translateY(-100%);
+}
+
+div {
+    text-align: center;
+    border: solid 1px;
+    width: 140px;
+}
+
+.title {
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+    border: none;
+}
+
+.atc_horder{
+    background-image: url('./resource/결제서류.jpg');
+    background-size: 500px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.atc {
+    padding-top: 300px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 120px;
+    color: white;

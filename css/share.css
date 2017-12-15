@@ -1,0 +1,87 @@
+html, body {
+    background-image: url('./resource/C_Background.png');
+    background-size: 1920px 1024px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 70px;
+    height: 70px;
+}
+
+nav > button {
+    border: none;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+#navi {
+    border: solid;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: 100px;
+    width: 300px;
+    height: 570px;
+    text-align: center;
+}
+
+div {
+    margin: auto;
+    border: solid;
+    width: 270px;
+    height: 80px;
+}
+
+section {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    margin-left: 100px;
+    left: 20%;
+    width: 1100px;
+    height: 600px;
+    border: solid;
+    overflow: auto;
+}
+
+article {
+    margin: 50px;
+    border: solid;
+    width: 250px;
+    height: 400px;
+    float: left;
+}
+
+article:nth-child(4) {
+    clear: both;
+}
+
+p {
+    border: solid;
+    width: 170px;
+}
+
+.title {
+    position: absolute;
+    margin: 5px;
+}
+
+.btn {
+    width: 90px;
+    margin-top: 350px;
+    margin-left: 150px;
+}

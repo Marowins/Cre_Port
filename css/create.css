@@ -1,0 +1,119 @@
+html, body {
+    background-image: url('./resource/C_Background.png');
+    background-size: 1920px 1024px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 70px;
+    height: 70px;
+}
+
+nav > button {
+    border: none;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+div {
+    border: solid;
+}
+
+ul {
+    margin-left: 130px;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 0px;
+    border: solid;
+    width: 400px;
+    height: 250px;
+    list-style: none;
+}
+
+li {
+    border: solid;
+    width: 300px;
+    margin: auto;
+}
+
+#tool {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    margin: auto;
+    width: 300px;
+    height: 791px;
+    text-align: center;
+}
+
+#tool > div {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+}
+
+#siz {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 365px;
+    margin: auto;
+    width: 60px;
+    height: 300px;
+    text-align: center;
+}
+
+#siz > div {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+section {
+    position: absolute;
+    overflow: auto;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+}
+
+#tem {
+    width: 530px;
+    height: 791px;
+}
+
+#r-container {
+    border: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 10%;
+    margin: auto;
+    width: 400px;
+    height: 842px;
+}
+
+textarea {
+    margin-top: 150px;
+    margin-left: 130px;
+    right: 50px;
+    width: 400px;
+    height: 250px;
+}
